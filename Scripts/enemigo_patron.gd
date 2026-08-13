@@ -12,3 +12,7 @@ func _process(delta):
 	position.x += direccion * speed * delta
 	if abs(position.x - inicio_x) > rango:
 		direccion *= -1
+
+
+func _on_area_2d_body_entered(body: Node2D) -> void:
+	print ("El jugador tocó al enemigo") # Replace with function body.

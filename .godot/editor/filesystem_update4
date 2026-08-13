@@ -2,3 +2,5 @@ res://Scenes/Player.tscn
 res://Scripts/player.gd
 res://Scenes/Nivel1.tscn
 res://Scripts/palanca.gd
+res://Scripts/enemigo_patron.gd
+res://Scenes/Enemigo.tscn
