@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1786630988
+::res://::1786631711
 ::res://assets/::1786631009
 Run (1).png::CompressedTexture2D::8410118765879845726::1786631009::1786631009::1::::<><><>0<>0<>52cde0270f8b0ec3d1bcd03955c1dc6b<>res://.godot/imported/Run (1).png-383b2a1c99db9795c6158a31b9a02aa4.ctex::
 Run (2).png::CompressedTexture2D::9144185007336863170::1786631009::1786631009::1::::<><><>0<>0<>a189d3590c8049af20d3f62b4cab5745<>res://.godot/imported/Run (2).png-2130a0dd155724e05a2feed817837d12.ctex::
@@ -9,16 +9,17 @@ Run (5).png::CompressedTexture2D::6368656258541364671::1786631009::1786631009::1
 Run (6).png::CompressedTexture2D::8127770495201770884::1786631009::1786631009::1::::<><><>0<>0<>022d1e0dd5c6d7c73ff953c37796825e<>res://.godot/imported/Run (6).png-8cb43218f2e42c818a055ac03f9af769.ctex::
 Run (7).png::CompressedTexture2D::1582429345368659671::1786631009::1786631009::1::::<><><>0<>0<>10e250fb3ec5212319375bcb7f775082<>res://.godot/imported/Run (7).png-3c3035cf893c2b4b24b263539b898583.ctex::
 Run (8).png::CompressedTexture2D::6817018173619494223::1786631009::1786631009::1::::<><><>0<>0<>6e893933366649faf1c7d13b022de1b2<>res://.godot/imported/Run (8).png-91f382513de18c730a378708026d18f9.ctex::
-::res://Scenes/::1786630773
+::res://Scenes/::1786632078
 Enemigo.tscn::PackedScene::109823902702970729::1786630773::0::1::::<><><>0<>0<><>::uid://xwa6tyvyo5b::::res://Scripts/enemigo_patron.gd
 Moneda.tscn::PackedScene::-1::1786628792::0::1::::<><><>0<>0<><>::res://Scripts/moneda.gd
 Nivel1.tscn::PackedScene::117643458542864337::1786630536::0::1::::<><><>0<>0<><>::uid://dwgiigeedaytq::::res://Scenes/Player.tscn<>res://Scenes/Enemigo.tscn<>res://Scenes/Moneda.tscn<>res://Scenes/Palanca.tscn<>res://Scenes/Plataforma.tscn
 Obstaculo.tscn::PackedScene::-1::1786628792::0::1::::<><><>0<>0<><>::
 Palanca.tscn::PackedScene::-1::1786628792::0::1::::<><><>0<>0<><>::res://Scripts/palanca.gd
 Plataforma.tscn::PackedScene::-1::1786628792::0::1::::<><><>0<>0<><>::
-Player.tscn::PackedScene::8716303221438842790::1786629719::0::1::::<><><>0<>0<><>::uid://ogjrlmyjphjk::::res://Scripts/player.gd
-::res://Scripts/::1786630774
+Player.tscn::PackedScene::8716303221438842790::1786632078::0::1::::<><><>0<>0<><>::uid://ogjrlmyjphjk::::res://Scripts/player.gd<>uid://dr26osagiiy83::::res://assets/Run (1).png<>uid://d3jrnkdl5noe1::::res://assets/Run (2).png<>uid://cmd8gsm70gdf3::::res://assets/Run (3).png<>uid://cf2w564rrjpwm::::res://assets/Run (4).png<>uid://cw0a3q36a0kk2::::res://assets/Run (5).png<>uid://dn2fgsu6mgi17::::res://assets/Run (6).png<>uid://wssm6olip056::::res://assets/Run (7).png<>uid://c4ehj8dpy1jyl::::res://assets/Run (8).png
+nivel_2.tscn::PackedScene::7200050361408537271::1786631711::0::1::::<><><>0<>0<><>::uid://dwgiigeedaytq::::res://Scenes/Player.tscn<>uid://btg1v44yhseb::::res://Scenes/Enemigo.tscn<>res://Scenes/Moneda.tscn<>res://Scenes/Palanca.tscn<>res://Scenes/Plataforma.tscn
+::res://Scripts/::1786632078
 enemigo_patron.gd::GDScript::48818120878849157::1786630774::0::1::::<>Node2D<><>0<>0<><>::
 moneda.gd::GDScript::1935956009443786939::1786628792::0::1::::<>Area2D<><>0<>0<><>::
-palanca.gd::GDScript::2467967426413876343::1786630536::0::1::::<>Area2D<><>0<>0<><>::
-player.gd::GDScript::995607486285673184::1786629719::0::1::::<>CharacterBody2D<><>0<>0<><>::
+palanca.gd::GDScript::2467967426413876343::1786632078::0::1::::<>Area2D<><>0<>0<><>::
+player.gd::GDScript::995607486285673184::1786631809::0::1::::<>CharacterBody2D<><>0<>0<><>::

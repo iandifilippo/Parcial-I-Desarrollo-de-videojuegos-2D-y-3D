@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bw8tnt37gd0d"]
 
 [ext_resource type="PackedScene" uid="uid://dwgiigeedaytq" path="res://Scenes/Player.tscn" id="1"]
-[ext_resource type="PackedScene" path="res://Scenes/Enemigo.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://btg1v44yhseb" path="res://Scenes/Enemigo.tscn" id="2"]
 [ext_resource type="PackedScene" path="res://Scenes/Moneda.tscn" id="3"]
 [ext_resource type="PackedScene" path="res://Scenes/Palanca.tscn" id="4"]
 [ext_resource type="PackedScene" path="res://Scenes/Plataforma.tscn" id="5_hdxwh"]
@@ -25,6 +25,7 @@ position = Vector2(615, 298)
 
 [node name="Palanca" parent="." unique_id=1889775906 instance=ExtResource("4")]
 position = Vector2(669, 289)
+siguiente_escena = "uid://dat01o2ld0gah"
 
 [node name="Plataforma" parent="." unique_id=1859372213 instance=ExtResource("5_hdxwh")]
 position = Vector2(31, 447)

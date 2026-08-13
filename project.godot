@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Parcial-I - IAN DI FILIPPO - DIEGO GONZALEZ"
-run/main_scene="uid://dat01o2ld0gah"
+run/main_scene="uid://bw8tnt37gd0d"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 
 [input]

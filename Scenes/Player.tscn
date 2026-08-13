@@ -58,4 +58,4 @@ position = Vector2(-7.0000005, 0)
 scale = Vector2(0.10345726, 0.10345727)
 sprite_frames = SubResource("SpriteFrames_uxa2c")
 animation = &"run"
-frame_progress = 0.938869
+frame_progress = 0.82510626
