@@ -19,6 +19,4 @@ func _physics_process(delta):
 	if dir != 0:
 		anim.flip_h = dir < 0
 		anim.play("walk")
-	else:
-		anim.play("idle")
 	move_and_slide()
