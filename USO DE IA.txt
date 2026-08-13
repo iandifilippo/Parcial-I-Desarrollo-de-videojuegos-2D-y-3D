@@ -1,0 +1,8 @@
+Usamos la IA Gemini, para que la palanca funcione pasando de nivel 1 a nivel 2, el único prompt usado en todo el proyecto fue para pedirle ayuda, simplemente le preguntamos a Gemini como es posible que le de F y pasar a escena 2, y le pasamos el script, donde al final, nos dio esto:
+
+if jugador_cerca and Input.is_action_pressed("action"):
+		if not ya_activada and siguiente_escena != "":
+			ya_activada = true
+			get_tree().change_scene_to_file(siguiente_escena)
+		else:
+			print("Palanca activada")
