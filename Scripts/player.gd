@@ -1,7 +1,7 @@
 extends CharacterBody2D
 @onready var anim = $AnimatedSprite2D
 @export var speed = 200.0
-@export var jump_force = -400.0
+@export var jump_force = -500.0
 
 func _ready():
 	add_to_group("player")

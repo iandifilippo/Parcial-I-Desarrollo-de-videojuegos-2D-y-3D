@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://dat01o2ld0gah"]
+
+[ext_resource type="PackedScene" uid="uid://dwgiigeedaytq" path="res://Scenes/Player.tscn" id="1_lj8fh"]
+[ext_resource type="PackedScene" uid="uid://btg1v44yhseb" path="res://Scenes/Enemigo.tscn" id="2_tnojt"]
+[ext_resource type="PackedScene" path="res://Scenes/Moneda.tscn" id="3_es3ns"]
+[ext_resource type="PackedScene" path="res://Scenes/Palanca.tscn" id="4_3ux85"]
+[ext_resource type="PackedScene" path="res://Scenes/Plataforma.tscn" id="5_ug47r"]
+
+[node name="Nivel2" type="Node2D" unique_id=660681365]
+
+[node name="Player" parent="." unique_id=618559796 instance=ExtResource("1_lj8fh")]
+position = Vector2(0, 361)
+
+[node name="Enemigo" parent="." unique_id=1176790432 instance=ExtResource("2_tnojt")]
+position = Vector2(440, 378)
+
+[node name="Moneda1" parent="." unique_id=1870662793 instance=ExtResource("3_es3ns")]
+position = Vector2(180, 260)
+
+[node name="Moneda2" parent="." unique_id=1254588639 instance=ExtResource("3_es3ns")]
+position = Vector2(-29, 192)
+
+[node name="Moneda4" parent="." unique_id=174034706 instance=ExtResource("3_es3ns")]
+position = Vector2(611, 321)
+
+[node name="Moneda3" parent="." unique_id=2127231620 instance=ExtResource("3_es3ns")]
+position = Vector2(434, 341)
+
+[node name="Palanca" parent="." unique_id=1537975157 instance=ExtResource("4_3ux85")]
+position = Vector2(196, 100)
+
+[node name="Plataforma" parent="." unique_id=10915975 instance=ExtResource("5_ug47r")]
+position = Vector2(-2, 407)
+
+[node name="Plataforma2" parent="." unique_id=1209435271 instance=ExtResource("5_ug47r")]
+position = Vector2(190, 352)
+
+[node name="Plataforma4" parent="." unique_id=742626853 instance=ExtResource("5_ug47r")]
+position = Vector2(-31, 253)
+
+[node name="Plataforma6" parent="." unique_id=1531930056 instance=ExtResource("5_ug47r")]
+position = Vector2(378, 413)
+
+[node name="Plataforma5" parent="." unique_id=135203464 instance=ExtResource("5_ug47r")]
+position = Vector2(505, 413)
+
+[node name="Plataforma3" parent="." unique_id=1605500596 instance=ExtResource("5_ug47r")]
+position = Vector2(193, 154)

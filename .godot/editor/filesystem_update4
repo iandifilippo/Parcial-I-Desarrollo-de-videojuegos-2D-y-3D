@@ -4,3 +4,4 @@ res://Scenes/Nivel1.tscn
 res://Scripts/palanca.gd
 res://Scripts/enemigo_patron.gd
 res://Scenes/Enemigo.tscn
+res://nivel_2.tscn
