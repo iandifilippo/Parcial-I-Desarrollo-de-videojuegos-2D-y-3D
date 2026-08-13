@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://dwgiigeedaytq"]
+
+[ext_resource type="Script" uid="uid://ogjrlmyjphjk" path="res://Scripts/player.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://dr26osagiiy83" path="res://assets/Run (1).png" id="2_megsn"]
+[ext_resource type="Texture2D" uid="uid://d3jrnkdl5noe1" path="res://assets/Run (2).png" id="3_yoq75"]
+[ext_resource type="Texture2D" uid="uid://cmd8gsm70gdf3" path="res://assets/Run (3).png" id="4_ksbbd"]
+[ext_resource type="Texture2D" uid="uid://cf2w564rrjpwm" path="res://assets/Run (4).png" id="5_glx4g"]
+[ext_resource type="Texture2D" uid="uid://cw0a3q36a0kk2" path="res://assets/Run (5).png" id="6_miouo"]
+[ext_resource type="Texture2D" uid="uid://dn2fgsu6mgi17" path="res://assets/Run (6).png" id="7_o3h8g"]
+[ext_resource type="Texture2D" uid="uid://wssm6olip056" path="res://assets/Run (7).png" id="8_1e7my"]
+[ext_resource type="Texture2D" uid="uid://c4ehj8dpy1jyl" path="res://assets/Run (8).png" id="9_arntx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1"]
+size = Vector2(32, 48)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_uxa2c"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_megsn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_yoq75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ksbbd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_glx4g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_miouo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_o3h8g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_1e7my")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_arntx")
+}],
+"loop": 1,
+"name": &"run",
+"speed": 10.0
+}]
+
+[node name="Player" type="CharacterBody2D" unique_id=618559796 groups=["player"]]
+script = ExtResource("1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=455464894]
+shape = SubResource("RectangleShape2D_1")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1782834648]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1217947777]
+position = Vector2(-7.0000005, 0)
+scale = Vector2(0.10345726, 0.10345727)
+sprite_frames = SubResource("SpriteFrames_uxa2c")
+animation = &"run"
+frame_progress = 0.6527854
